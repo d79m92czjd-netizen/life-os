@@ -1,4 +1,4 @@
-# LIFE OS 0.3.0
+# LIFE OS 0.3.1
 
 PWA local-first para organización personal.
 
@@ -17,3 +17,12 @@ Sube el contenido de esta carpeta a la raíz del repositorio de GitHub Pages.
 - En iPhone, instala la PWA desde Safari mediante Compartir → Añadir a pantalla de inicio y concede permiso desde la app instalada.
 - Los widgets de pantalla de inicio de iOS (WidgetKit) no están disponibles en esta arquitectura PWA.
 - Los datos siguen guardándose localmente en el navegador/dispositivo.
+
+
+## Módulos funcionales 0.3.1
+- Nutrición y recuperación: registro de sueño, hidratación, energía, recuperación y observaciones de comidas.
+- Finanzas: registro manual de ingresos, gastos y ahorro.
+- Desarrollo personal: diario de lectura, aprendizaje, concentración, movilidad y proyectos.
+- Futuro e independencia: hoja de ruta con áreas, horizontes y tareas completadas.
+
+Los datos se guardan localmente en el dispositivo. Conserva una copia exportada antes de cambiar de versión.
