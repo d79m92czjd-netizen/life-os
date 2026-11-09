@@ -1,0 +1,171 @@
+{
+  "app": "LIFE OS",
+  "version": "0.3.2",
+  "data": {
+    "tasks": [
+      {
+        "text": "Aspirador",
+        "date": "",
+        "done": true
+      },
+      {
+        "text": "Cocina recogida",
+        "date": "",
+        "done": true
+      },
+      {
+        "text": "Habitación recogida",
+        "date": "",
+        "done": true
+      }
+    ],
+    "habits": [
+      {
+        "text": "Revisar agenda y hacer deberes",
+        "done": false,
+        "doneDate": ""
+      },
+      {
+        "text": "No scrollear más de 10 min",
+        "done": false,
+        "doneDate": ""
+      },
+      {
+        "text": "Tomar suplementos",
+        "done": false,
+        "doneDate": ""
+      },
+      {
+        "text": "Llegir",
+        "done": false,
+        "doneDate": ""
+      }
+    ],
+    "goals": [
+      {
+        "name": "Que se fije algún club en mi",
+        "horizon": "Largo plazo",
+        "progress": 0,
+        "done": false
+      }
+    ],
+    "handball": [
+      {
+        "type": "Entrenamiento",
+        "focus": "Pivote y defensa",
+        "notes": "No sé en q he fallado, pero sé q he fallado.",
+        "date": "2026-11-09"
+      }
+    ],
+    "gym": [
+      {
+        "name": "Gym",
+        "exercise": "Hipertrofia torso + piernas",
+        "sets": "",
+        "reps": "",
+        "load": "",
+        "date": "2026-11-09"
+      }
+    ],
+    "study": [
+      {
+        "subject": "Mates",
+        "task": "Examen",
+        "date": "2026-11-13"
+      }
+    ],
+    "notes": [],
+    "evaluations": [],
+    "activity": [
+      {
+        "s": "Hábito añadido: Llegir",
+        "at": "2026-11-09T21:14:09.588Z"
+      },
+      {
+        "s": "Sesión de gimnasio: Gym",
+        "at": "2026-11-09T20:43:50.531Z"
+      },
+      {
+        "s": "Registro de balonmano guardado",
+        "at": "2026-11-09T20:42:19.438Z"
+      },
+      {
+        "s": "Objetivo creado: Que se fije algún club en mi",
+        "at": "2026-11-09T16:38:50.263Z"
+      },
+      {
+        "s": "Tarea de estudio añadida: Examen",
+        "at": "2026-11-09T16:37:58.897Z"
+      },
+      {
+        "s": "Completada: Habitación recogida",
+        "at": "2026-11-09T16:36:30.863Z"
+      },
+      {
+        "s": "Completada: Cocina recogida",
+        "at": "2026-11-09T16:36:30.294Z"
+      },
+      {
+        "s": "Completada: Aspirador",
+        "at": "2026-11-09T16:36:29.101Z"
+      },
+      {
+        "s": "Hábito añadido: Tomar suplementos",
+        "at": "2026-11-09T16:15:08.107Z"
+      },
+      {
+        "s": "Hábito añadido: No scrollear más de 10 min",
+        "at": "2026-11-09T16:14:54.910Z"
+      },
+      {
+        "s": "Tarea creada: Aspirador",
+        "at": "2026-11-09T16:14:35.956Z"
+      },
+      {
+        "s": "Tarea creada: Cocina recogida",
+        "at": "2026-11-09T16:14:30.783Z"
+      },
+      {
+        "s": "Tarea creada: Habitación recogida",
+        "at": "2026-11-09T16:14:23.728Z"
+      },
+      {
+        "s": "Hábito añadido: Revisar agenda y hacer deberes",
+        "at": "2026-11-09T16:13:45.478Z"
+      },
+      {
+        "s": "Tarea creada: Recoger la casa",
+        "at": "2026-11-09T16:13:18.228Z"
+      },
+      {
+        "s": "Registro de bienestar guardado",
+        "at": "2026-11-09T13:56:50.164Z"
+      }
+    ],
+    "wellbeing": [
+      {
+        "sleep": "8.5",
+        "energy": 4,
+        "water": "Buena",
+        "notes": "",
+        "date": "2026-11-09"
+      }
+    ],
+    "transactions": [],
+    "personalLogs": [],
+    "futureItems": [],
+    "dashboardWidgets": [
+      "goals",
+      "handball",
+      "gym",
+      "studies"
+    ],
+    "notificationSettings": {
+      "habitEnabled": true,
+      "habitTime": "20:00"
+    },
+    "notificationLog": {
+      "task-0-Recoger la casa-2026-11-09": "2026-11-09"
+    }
+  }
+}

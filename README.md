@@ -1,15 +1,23 @@
-# LIFE OS 0.3.2
+# LIFE OS 0.4.0
 
-Aplicación web progresiva (PWA), local-first, para organizar tareas, hábitos, deporte, estudios y objetivos.
+PWA local-first para organización personal.
 
-## Publicación en GitHub Pages
+## Novedades 0.4.0
+- LIFE OS AI local y gratuita: asistente basado en reglas y análisis proactivo.
+- Informe de tareas pendientes, objetivos, hábitos, estudios, balonmano, gimnasio y recuperación.
+- Permisos para elegir qué módulos puede consultar el asistente.
+- Sin llamadas externas: los datos no salen del dispositivo por esta función.
+- No es un modelo generativo ni un chatbot equivalente a ChatGPT.
 
-1. Sube todos los archivos de esta carpeta a la raíz del repositorio.
-2. En GitHub, abre **Settings → Pages** y selecciona la rama y carpeta publicadas.
-3. Abre la URL de GitHub Pages y, si quieres, añade LIFE OS a la pantalla de inicio del iPhone desde Safari.
+## Publicación
+Sube el contenido de esta carpeta a la raíz del repositorio de GitHub Pages.
 
-## Datos y privacidad
+## Datos y compatibilidad
+- Conserva la clave local `life-os-v02` para mantener los datos existentes.
+- Exporta periódicamente una copia JSON desde Perfil.
+- Los datos se guardan en el navegador/dispositivo; no hay sincronización en la nube.
 
-Los datos se guardan localmente en el navegador mediante `localStorage` con la clave `life-os-v02` para mantener la compatibilidad con versiones anteriores. Usa **Perfil → Exportar datos** para crear copias de seguridad periódicas.
-
-La app no tiene cuentas, sincronización en nube ni servidor de notificaciones push. Los recordatorios locales requieren que el navegador/app pueda ejecutar la comprobación.
+## Limitaciones
+- Los recordatorios se comprueban mientras LIFE OS está abierta; no hay servidor push.
+- Los widgets nativos de pantalla de inicio de iOS no están disponibles en esta PWA.
+- La información de bienestar es un registro personal, no una valoración médica.
