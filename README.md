@@ -1,28 +1,15 @@
-# LIFE OS 0.3.1
+# LIFE OS 0.3.2
 
-PWA local-first para organización personal.
+Aplicación web progresiva (PWA), local-first, para organizar tareas, hábitos, deporte, estudios y objetivos.
 
-## Publicación
-Sube el contenido de esta carpeta a la raíz del repositorio de GitHub Pages.
+## Publicación en GitHub Pages
 
-## Funciones de esta versión
-- Dashboard con widgets adicionales configurables y reordenables.
-- Widgets de objetivos, balonmano, gimnasio y estudios.
-- Ajustes de recordatorios y prueba de notificación.
-- Avisos locales de tareas/estudios con fecha de hoy y recordatorio diario de hábitos mientras la aplicación está abierta.
-- Exportación/importación JSON y conservación de la clave local `life-os-v02` para compatibilidad con datos previos.
+1. Sube todos los archivos de esta carpeta a la raíz del repositorio.
+2. En GitHub, abre **Settings → Pages** y selecciona la rama y carpeta publicadas.
+3. Abre la URL de GitHub Pages y, si quieres, añade LIFE OS a la pantalla de inicio del iPhone desde Safari.
 
-## Limitaciones importantes
-- Los avisos se comprueban mientras LIFE OS está abierta. No hay servidor push ni suscripciones Web Push, por lo que no se garantizan avisos cuando la app está cerrada.
-- En iPhone, instala la PWA desde Safari mediante Compartir → Añadir a pantalla de inicio y concede permiso desde la app instalada.
-- Los widgets de pantalla de inicio de iOS (WidgetKit) no están disponibles en esta arquitectura PWA.
-- Los datos siguen guardándose localmente en el navegador/dispositivo.
+## Datos y privacidad
 
+Los datos se guardan localmente en el navegador mediante `localStorage` con la clave `life-os-v02` para mantener la compatibilidad con versiones anteriores. Usa **Perfil → Exportar datos** para crear copias de seguridad periódicas.
 
-## Módulos funcionales 0.3.1
-- Nutrición y recuperación: registro de sueño, hidratación, energía, recuperación y observaciones de comidas.
-- Finanzas: registro manual de ingresos, gastos y ahorro.
-- Desarrollo personal: diario de lectura, aprendizaje, concentración, movilidad y proyectos.
-- Futuro e independencia: hoja de ruta con áreas, horizontes y tareas completadas.
-
-Los datos se guardan localmente en el dispositivo. Conserva una copia exportada antes de cambiar de versión.
+La app no tiene cuentas, sincronización en nube ni servidor de notificaciones push. Los recordatorios locales requieren que el navegador/app pueda ejecutar la comprobación.
