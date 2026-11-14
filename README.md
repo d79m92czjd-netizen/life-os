@@ -1,23 +1,21 @@
-# LIFE OS 0.5.2 — Task Progress
+# LIFE OS 0.6.0
 
-PWA local-first para organización personal, hábitos, estudios, deporte y progreso.
+Actualización basada en LIFE OS 0.5.2.
 
-## Novedades 0.5.2
-- Gráfica circular animada en Inicio con el porcentaje real de tareas completadas.
-- Desglose de tareas completadas, pendientes y totales.
-- Mensajes dinámicos según el progreso registrado.
-- El gráfico se actualiza al añadir, completar o eliminar tareas.
-- Se conserva la clave local `life-os-v02` y la estructura de datos anterior.
+## Novedades
+- Registro manual de asignaturas y notas de exámenes/trabajos.
+- Media por asignatura calculada automáticamente, con ponderación opcional por nota (peso 1 por defecto).
+- Centro de estudio con temporizador Pomodoro, estudio profundo, repaso corto y modo personalizado.
+- Métodos de estudio explicados: recuperación activa, repetición espaciada, técnica Feynman y práctica intercalada.
+- Historial local de sesiones de estudio.
+- Registro de gimnasio por ejercicio y por serie: repeticiones, carga y RPE opcional.
+- Compatibilidad con registros de gimnasio antiguos y conservación de la clave local `life-os-v02`.
 
-## Publicación en GitHub Pages
-1. Antes de actualizar, abre LIFE OS y usa Perfil → Exportar datos para guardar una copia JSON.
-2. Descomprime este ZIP.
-3. Sube `index.html`, `manifest.webmanifest`, `sw.js` y `README.md` a la raíz del mismo repositorio, sustituyendo los anteriores.
-4. No cambies la configuración de GitHub Pages.
-5. Abre la URL y recarga. La caché del service worker se renueva con esta versión.
+## Actualización
+1. Exporta una copia de seguridad desde Perfil → Exportar datos.
+2. Sustituye los archivos de la versión anterior en la raíz del repositorio de GitHub Pages por los de este ZIP.
+3. No borres los datos del navegador ni cambies la clave de almacenamiento.
+4. Abre LIFE OS y, si aparece la versión antigua, cierra y vuelve a abrir la PWA o recarga la página.
 
-## Privacidad y compatibilidad
-- Los datos permanecen en `localStorage` del dispositivo.
-- No se añaden servidores, cuentas, APIs ni dependencias externas.
-- La clave de almacenamiento sigue siendo `life-os-v02`; no borres los datos del navegador.
-- Haz una copia de seguridad antes de actualizar.
+## Privacidad
+Los datos se almacenan localmente en el navegador. Las notas y registros no se envían a un servidor.
