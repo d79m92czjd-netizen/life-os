@@ -20,3 +20,7 @@ Requiere Node.js 20+. No incluyas `.env` en GitHub.
 - La app envía únicamente el contexto permitido por los toggles; aun así, los datos autorizados salen del dispositivo.
 - Las acciones se validan y ejecutan en el cliente solo tras pulsar Aprobar. El backend no recibe permiso para escribir en la base local.
 - Este backend es una plantilla inicial, no una auditoría de seguridad ni una configuración lista para producción.
+
+
+## Capacidades 0.9.0
+El agente recibe el historial reciente de chat y, si el usuario lo autoriza, evaluaciones deportivas además de tareas, objetivos, hábitos, balonmano, gimnasio, estudios, bienestar y notas. El modelo debe justificar patrones con datos disponibles y no inventar huecos horarios. Las propuestas siguen requiriendo aprobación en la PWA.
