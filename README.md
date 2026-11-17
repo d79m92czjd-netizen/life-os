@@ -1,26 +1,25 @@
-# Backend LIFE OS AI (referencia)
+# LIFE OS 0.9.1 — Apple-inspired edition
 
-Requiere Node.js 20+. No incluyas `.env` en GitHub.
+Interfaz minimalista inspirada en los patrones visuales de Apple: tipografía del sistema, superficies limpias, jerarquía clara, controles táctiles y adaptación automática a modo claro/oscuro.
 
-## Configuración por una persona adulta responsable
-1. Configura una cuenta de API y presupuesto/límites con supervisión adulta.
-2. Copia `.env.example` a `.env`.
-3. Define `OPENAI_API_KEY` solo en variables secretas del servidor. Nunca la pongas en `index.html`, GitHub Pages ni en el iPhone.
-4. Genera un `LIFE_OS_ACCESS_TOKEN` aleatorio largo y privado. Este es el token que se introduce en la pantalla LIFE AI; no es la clave de OpenAI.
-5. Configura `ALLOWED_ORIGIN` con el origen exacto de la PWA y usa HTTPS.
-6. Despliega el servidor en una plataforma backend con secretos de entorno. No publiques el `.env`.
+## Incluye
+- Inicio con resumen de tareas, hábitos y objetivos.
+- Agenda y seguimiento del progreso.
+- Balonmano, gimnasio, estudios y temporizador de concentración.
+- Nutrición y recuperación, finanzas, desarrollo personal y futuro.
+- Autopilot e Intelligence con reglas locales deterministas (sin modelos de IA).
+- Performance Center, Study Engine y Second Brain con procesamiento local.
+- Exportación e importación de copias JSON.
+- Almacenamiento local y recordatorios compatibles con el navegador.
 
-## Ejecución local
-`npm start`
+## Sin IA en esta versión
+No incluye LIFE AI, Ollama, OpenAI, llamadas a modelos ni backend de IA. Los módulos de planificación y análisis que permanecen funcionan mediante reglas explícitas en el propio dispositivo.
 
-## Seguridad / limitaciones
-- La API key solo se lee desde el entorno del servidor.
-- Token Bearer para limitar el acceso; límite simple de 12 solicitudes/minuto por IP. Añade autenticación/limitación robusta del proveedor de hosting antes de producción.
-- CORS no es autenticación. El token es obligatorio.
-- La app envía únicamente el contexto permitido por los toggles; aun así, los datos autorizados salen del dispositivo.
-- Las acciones se validan y ejecutan en el cliente solo tras pulsar Aprobar. El backend no recibe permiso para escribir en la base local.
-- Este backend es una plantilla inicial, no una auditoría de seguridad ni una configuración lista para producción.
+## Actualización segura
+1. Exporta una copia desde Perfil antes de actualizar.
+2. Sustituye los archivos publicados por los de este paquete.
+3. Mantén la clave de almacenamiento `life-os-v02`: así se conservan los datos guardados por versiones anteriores.
+4. Publica y vuelve a abrir la app. La caché `life-os-v091` fuerza la carga de esta versión.
 
-
-## Capacidades 0.9.0
-El agente recibe el historial reciente de chat y, si el usuario lo autoriza, evaluaciones deportivas además de tareas, objetivos, hábitos, balonmano, gimnasio, estudios, bienestar y notas. El modelo debe justificar patrones con datos disponibles y no inventar huecos horarios. Las propuestas siguen requiriendo aprobación en la PWA.
+## Privacidad y límites
+Los datos se guardan en el almacenamiento local del navegador. Esta versión no tiene cuentas, sincronización en la nube ni cifrado de extremo a extremo. No guardes contraseñas ni datos sensibles. Para evitar pérdidas, exporta copias periódicamente.
