@@ -1,25 +1,23 @@
-# LIFE OS 0.9.1 — Apple-inspired edition
+# LIFE OS 1.0 — Performance Edition
 
-Interfaz minimalista inspirada en los patrones visuales de Apple: tipografía del sistema, superficies limpias, jerarquía clara, controles táctiles y adaptación automática a modo claro/oscuro.
+Rediseño iPhone-first centrado en adherencia, rendimiento deportivo y estudios.
 
-## Incluye
-- Inicio con resumen de tareas, hábitos y objetivos.
-- Agenda y seguimiento del progreso.
-- Balonmano, gimnasio, estudios y temporizador de concentración.
-- Nutrición y recuperación, finanzas, desarrollo personal y futuro.
-- Autopilot e Intelligence con reglas locales deterministas (sin modelos de IA).
-- Performance Center, Study Engine y Second Brain con procesamiento local.
-- Exportación e importación de copias JSON.
-- Almacenamiento local y recordatorios compatibles con el navegador.
+## Cambios principales
+- Inicio convertido en un panel de rendimiento con accesos directos a planificación, balonmano y estudios.
+- Check-in diario con racha de revisiones.
+- Navegación simplificada: Inicio, Plan, Deporte, Estudios y Progreso.
+- Recordatorio diario exportable a Calendario de iPhone mediante un archivo `.ics`.
+- Se mantienen los módulos existentes y el almacenamiento local.
+- Se conserva la clave `life-os-v02` para mantener los datos de versiones anteriores.
 
-## Sin IA en esta versión
-No incluye LIFE AI, Ollama, OpenAI, llamadas a modelos ni backend de IA. Los módulos de planificación y análisis que permanecen funcionan mediante reglas explícitas en el propio dispositivo.
-
-## Actualización segura
-1. Exporta una copia desde Perfil antes de actualizar.
+## Actualización
+1. Exporta una copia JSON desde Perfil.
 2. Sustituye los archivos publicados por los de este paquete.
-3. Mantén la clave de almacenamiento `life-os-v02`: así se conservan los datos guardados por versiones anteriores.
-4. Publica y vuelve a abrir la app. La caché `life-os-v091` fuerza la carga de esta versión.
+3. Mantén la clave `life-os-v02`.
+4. Publica los archivos y vuelve a abrir LIFE OS. La caché se ha actualizado a `life-os-v100`.
 
-## Privacidad y límites
-Los datos se guardan en el almacenamiento local del navegador. Esta versión no tiene cuentas, sincronización en la nube ni cifrado de extremo a extremo. No guardes contraseñas ni datos sensibles. Para evitar pérdidas, exporta copias periódicamente.
+## Recordatorios en iPhone
+Esta PWA local no puede garantizar avisos cuando está cerrada. Desde Perfil puedes generar un evento recurrente `.ics`; ábrelo en el iPhone y añádelo a Calendario para recibir un aviso diario a la hora elegida.
+
+## Privacidad
+Los datos permanecen en el almacenamiento local del navegador. No hay cuentas ni sincronización en la nube. Exporta copias periódicamente y no guardes contraseñas ni datos sensibles.
